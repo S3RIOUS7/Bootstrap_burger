@@ -1,0 +1,196 @@
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Cairo', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+overflow-x: hidden;
+}
+.burger__header{
+    background-image: url(/assets/IMG/background.png);
+     max-width: 1440px;  
+    height: 825px;
+    margin: 0 auto;
+}
+.link__a > ul li a  {
+   letter-spacing: 4px;
+    font-size: 15px; 
+   color: #3d2514;
+   font: 500;
+   text-transform:uppercase ;
+}
+.link__a a:hover {
+    color: red;
+}
+.express img{
+    height: 41px;
+    width: 56px;  
+}
+.express > p{
+    letter-spacing: 2px;
+    font-size: 16px; 
+   color: #3d2514;
+}
+.burger_second_text p{ 
+    font-size: 15px; 
+   color: #3d2514;
+   text-transform:uppercase ;
+   border: 2px dashed  #3d2514;
+}
+.burger__mix p{
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    padding: 2px dashed  #3d2514;
+    z-index: 1;
+}
+.burger__mix {
+    position: relative;  
+}
+.propose  p{
+    text-transform: uppercase;
+    color: white;
+    font: 1000;
+    font-size: 30px;
+}
+.enjoy p{
+    color: #3d2514;
+    font-size: 15px;
+}
+.btn__tasty_burger{
+    background-color: #ffc045;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border: none;
+    font: bold;
+}
+.btn__tasty_burger:hover{  
+    background-color: grey;
+}
+.btn__order_now{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: red;
+    font: 1000;
+    color: white;
+    border: none;
+}
+.Burger_Image2{
+    height: 271px;
+    width: 342px;
+}
+.discover p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font: bold;
+    color:#3d2514; 
+}
+.discover p1{
+    font-size:18px;
+    color:#3d2514;
+}
+.discover input{
+  display: none;
+}
+.discover label{
+    border-radius:50% ;
+    background-color: #dcdcdc;
+    width: 15px;
+    height: 15px;
+    margin-right: 7px;
+    margin-left: 0px;
+    margin-top: 50px; 
+}
+.discover input:checked + label{
+    background-color: #ffc045;
+}
+.boxxing{
+    box-shadow: 10px 10px 10px 10px #dddddd;
+}
+
+.book p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font: bold;
+    color:#3d2514; 
+    text-transform: uppercase;
+}
+.type_input > p input{
+    width: 85%;
+    border-radius: 6px;
+    border: 1px solid;
+    text-transform: uppercase;
+} 
+.type_input > p button{
+    width: 85%;
+    border-radius: 6px;
+    border: 1px solid;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: red;
+    font: 1000;
+    color: white;
+    text-transform: uppercase;
+
+} 
+.foot{
+    background-image: url(/assets/IMG/background2.png);
+    height: 525px;
+    
+}
+footer{
+    color: white;
+}
+
+.main_letter ul,
+.main_letter ol{
+    list-style: none;
+}
+.main_letter > ul li a{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    
+}
+.main_letter > ul li i{
+    padding-right: 10px;
+}
+
+.main_letter > ul li a:hover{
+    color:#ffc045 ;
+}
+.company{
+    margin-top: 140px;
+}
+.company p{
+    text-transform: uppercase;
+}
+.company p1{
+    font-size: 20px;
+    width: 35px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius:50% ;
+   
+     background-color: white; 
+    margin-right: 10px;
+}
+.company p1 i{
+    color: black;
+}
+.company p1 i:hover{
+    color: red;
+}
+.company p1:hover{
+    
+    background-color: #ffc045; 
+}
