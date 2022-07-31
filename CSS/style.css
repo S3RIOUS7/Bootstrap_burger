@@ -7,7 +7,8 @@ overflow-x: hidden;
 .burger__header{
     background-image: url(/assets/IMG/background.png);
      max-width: 1440px;  
-    height: 825px;
+    /* height: 825px; */
+    min-height: 825px;
     margin: 0 auto;
 }
 .link__a > ul li a  {
@@ -17,6 +18,14 @@ overflow-x: hidden;
    font: 500;
    text-transform:uppercase ;
 }
+.link__a  {
+    letter-spacing: 4px;
+     font-size: 15px; 
+    color: #3d2514;
+    font: 500;
+    text-transform:uppercase ;
+ }
+
 .link__a a:hover {
     color: red;
 }
@@ -29,24 +38,40 @@ overflow-x: hidden;
     font-size: 16px; 
    color: #3d2514;
 }
+.btn__only_now{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
 .burger_second_text p{ 
     font-size: 15px; 
    color: #3d2514;
    text-transform:uppercase ;
    border: 2px dashed  #3d2514;
 }
+.title img{width: 100%;}
+.sudtitle img{width: 100%;}
+  
 .burger__mix p{
+    display: block;
     color: white;
     background-color: red;
     border-radius: 50%;
     font-size: 30px;
     text-align: center;
-    padding: 2px dashed  #3d2514;
-    z-index: 1;
+  
+}
+.burger__mix p::content{
+    /* border-radius:50% ; */
+    border: 5px dotted black;
 }
 .burger__mix {
     position: relative;  
+   
+
 }
+
 .propose  p{
     text-transform: uppercase;
     color: white;
@@ -80,10 +105,7 @@ overflow-x: hidden;
     color: white;
     border: none;
 }
-.Burger_Image2{
-    height: 271px;
-    width: 342px;
-}
+
 .discover p{
     font-size: 20px;
     letter-spacing: 1px;
@@ -143,8 +165,11 @@ overflow-x: hidden;
 } 
 .foot{
     background-image: url(/assets/IMG/background2.png);
-    height: 525px;
-    
+    min-height: 525px;
+    background-position: center;
+    /* background-repeat:repeat; */
+    background-size: auto;
+    width: 100%;
 }
 footer{
     color: white;
@@ -193,4 +218,23 @@ footer{
 .company p1:hover{
     
     background-color: #ffc045; 
+}
+@media all and (max-width:1400px) {
+    .burger__mix img{width: 100%;}  
+}
+
+@media all and (max-width:1140px) {
+  
+}
+@media all and (max-width:960px) {
+    
+}
+@media all and (max-width:720px) {
+    
+}
+@media all and (max-width:576px) {
+    .propose  p{
+    
+        font-size: 20px;
+    }
 }
